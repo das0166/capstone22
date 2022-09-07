@@ -37,7 +37,7 @@
     - 캘린더
     ![캘린더](./img/%ED%88%AC%EB%8D%B0%EC%9D%B4_%EC%BA%98%EB%A6%B0%EB%8D%94.png)
     - 로그인
-    ![홈화면1](./img/%ED%88%AC%EB%8D%B0%EC%9D%B4_%EB%A1%9C%EA%B7%B8%EC%9D%B8.png)
+    ![로그인](./img/%ED%88%AC%EB%8D%B0%EC%9D%B4_%EB%A1%9C%EA%B7%B8%EC%9D%B8.png)
 
 + 기능
     + 홈화면<br>
