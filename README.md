@@ -41,7 +41,7 @@
 
 + 기능
     + 홈화면<br>
-         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**왼쪽 메모지**
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**왼쪽 메모지**
         + 오늘 할 일이 보여짐(Todo)
         + today 왼쪽에 있는 edit 버튼을 누르면 메모지, 글 색상 등을 변경할 수 있으며 할 일을 추가할 수 있음
         + 화살표를 누르면 다음 날에 할 일을 확인할 수 있음<br> **오른쪽 메모지**
