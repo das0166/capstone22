@@ -11,6 +11,47 @@
     - 작품의 특징 : 캘린더 기능에 일정 추가까지 가능하여 제목, 시간, 장소 등을 작성할 수 있음
 
 ---
+##  [ 2022년 09월 21일 ]
++ 25일까지 할 일
+    - 헤더 완성(완성)
+    - 전반적인 React 학습
+    - 메인 페이지 틀 잡기(완성)
+    - 로그인 페이지 완성(기능 제외)
+
++ js 실행 방법 : npm start
++ 수정 사항이 있을 수도 있기 때문에 시작 전에 git pull
++ 이미지 적용 방법
+    - src 폴더 안에 img 폴더 생성
+    - img 폴더 안에 원하는 이미지 넣기
+    - js 파일에서 import 및 이미지 불러오기
+    ```js
+    import logo from './image/today_logo.png';
+
+    const Header = () => {
+	return (
+		<div className='header'>
+            <img className='logo_img' src={logo} alt='logo'/>
+		</div>
+	);
+    };
+    export default Header;
+    ```
++ App.js에서 header.js 불러오는 방법
+    ```js
+    import Header from './header.js';
+
+   function App() {
+    return(
+        <div>
+        <Header/>
+        </div>
+    )
+    }
+
+    export default App;
+    ```
++ <></>는 <div></div>와 같은 뜻
++ 코드를 작성하기 위해선 <div></div>로 감싸야 한다!
 
 ##  [ 2022년 09월 14일 ]
 + 로고 완성  
