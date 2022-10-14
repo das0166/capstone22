@@ -6,11 +6,19 @@
 
 + 작품 소개
     - 작품명 : 나의 하루를 책임질 '투데이'
-    - 개발환경 : <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white"> <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=black"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white"> <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white">
+    - 개발환경 : <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white"> <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=black"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white">
     - 작품 소개 : 오늘 해야할 일을 확인할 수 있는 투두 기능 및 캘린더 기능이 있는 사이트
     - 작품의 특징 : 캘린더 기능에 일정 추가까지 가능하여 제목, 시간, 장소 등을 작성할 수 있음
 
 ---
+##  [ 2022년 10월 12일 ]
++ 오류가 발생했던 것
+    ![오류2](./%EC%98%A4%EB%A5%98/%EC%98%A4%EB%A5%982.png)
+     - 발생한 이유 
+        - useContext가 선언되지 않았기때문에 발생함
+    - 해결 방법
+        - import React, { useState } from "react";으로 작성 되었던 것을 import React, { useState, useContext } from "react";으로 수정했음
+
 ##  [ 2022년 10월 05일 ]
 + 오류가 발생했던 것
     ![오류1](./%EC%98%A4%EB%A5%98/%EC%98%A4%EB%A5%981.png)
